@@ -1,0 +1,67 @@
+/* commoone css st */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+}
+ul, li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    width: 1170px;
+    margin: auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+/* commoone css end */
+
+.light{
+    height: 50vh;
+    background-color: wheat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.light button{
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.count{
+    height: 50vh;
+    background-color: pink;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.count button{
+    padding: 5px 10px;
+    cursor: pointer;
+}
+.count input{
+    text-align: center;
+    padding: 5px 10px;
+}
+
+.clr{
+    height: 50vh;
+    background-color: rebeccapurple;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.clr button{
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;  
+}
